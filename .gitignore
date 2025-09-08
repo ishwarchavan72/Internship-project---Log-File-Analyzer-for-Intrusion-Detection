@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# === Custom for this project ===
+
+# Ignore all reports except structure
+reports/*
+!reports/.gitkeep
+!reports/plots/
+!reports/plots/.gitkeep
+
+# Ignore all .log files except the sample
+*.log
+!data/sample.log
+
+
